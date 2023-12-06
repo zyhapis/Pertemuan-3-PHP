@@ -37,18 +37,6 @@
     }
 
     $output = rtrim($output, ", ");
-    echo $output . "<br><br>";
-
-
-    // Loop Array Multidimensi
-    $ar_jus = [
-        ["buah"=>"Mangga", "harga"=>8000],
-        ["buah"=>"Alpukat", "harga"=>10000],
-        ["buah"=>"Durian", "harga"=>14000],
-    ];
-
-    foreach($ar_jus as $jus){
-        echo "jus ".$jus["buah"]." harganya : ".$jus["harga"]."<br>";
-    }
+    echo $output . "<br>";
 
 ?>
